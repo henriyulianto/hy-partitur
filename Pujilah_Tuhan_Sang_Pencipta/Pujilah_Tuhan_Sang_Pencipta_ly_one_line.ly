@@ -5,8 +5,11 @@
                     "time-signature-summary"
                     "simultaneous-divisi"
                     )
-\include "Pujilah_Tuhan_Sang_Pencipta_ly_main,ly"
-%\include "tie-attributes.ily"
+
+#(ly:parser-append-to-include-path "../../bwv-zeug/lilypond/includes")
+\include "tie-attributes.ily"
+
+\include "Pujilah_Tuhan_Sang_Pencipta_ly_main.ly"
 
 \paper {
   indent = 0
