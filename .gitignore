@@ -5,3 +5,6 @@
 *.mid
 *.log
 *~
+
+# Directories
+test/
